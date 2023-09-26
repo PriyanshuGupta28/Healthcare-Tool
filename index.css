@@ -1,0 +1,334 @@
+body {
+  background-color: #f5f7f9;
+}
+
+.mainContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.navContainer {
+  width: 10rem;
+  height: auto;
+  background-color: #0b596c;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.logo {
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.navIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.navIcons svg {
+  width: 25px;
+  height: 25px;
+  color: #86adb6;
+}
+.navIcons svg:active {
+  color: white;
+}
+
+.dashboardContainer {
+  background-color: #f5f7f9;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 2rem 2rem;
+  width: 100%;
+  height: 100%;
+}
+.dashboardNavHead {
+  display: flex;
+  justify-content: space-between;
+}
+.backTo {
+  display: flex;
+  align-items: center;
+}
+.backTo .text {
+  margin-left: 5px;
+}
+
+.profileContainer {
+  display: flex;
+}
+.profileContainerInfo {
+  display: flex;
+}
+.profileContainer .profileContainerInfo .profileText {
+  display: flex;
+  margin-left: 1rem;
+}
+.profileText svg {
+  margin-left: 1rem;
+}
+
+.avatar {
+  /* Make the container a circle */
+  border-radius: 50%;
+  /* Hide image parts outside the circle */
+  overflow: hidden;
+  margin-left: 1rem;
+}
+.avatar img {
+  /* Set the size of the circular image */
+  width: 30px;
+  height: 30px;
+  /* Make the container a circle */
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.midContainer {
+}
+
+.patientCard {
+  text-align: center;
+  height: 20rem;
+  width: 100%;
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+}
+
+.patientCard .patientAvatar img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1rem;
+}
+.patientText {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.patientButton {
+  width: 8rem;
+  height: 3rem;
+  margin-top: 1rem;
+  background-color: #45bc8f;
+  border: none;
+  font-weight: bold;
+}
+.patientReports {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 5rem;
+}
+
+.reportCard {
+  display: grid;
+  text-align: center;
+  background-color: white;
+  width: 15rem;
+  height: 12rem;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  gap: 5px;
+}
+
+.reportCard svg {
+  height: 2rem;
+  width: 2rem;
+  color: red;
+}
+
+.reportName {
+  font-size: 15px;
+}
+
+.reportRate {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.midCenterContainer {
+  width: 25rem;
+  height: 100%;
+}
+
+.testReport {
+  width: 100%;
+  height: 10rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+
+.testReportCardWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testReportCard {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.blueClipBoard svg {
+  height: 25px;
+  width: 25px;
+  color: #0a586c;
+  margin-right: 1rem;
+}
+
+.testReportDate {
+  font-size: 11px;
+  color: #a2abae;
+}
+
+.patientInformationHeading {
+  margin-bottom: 1rem;
+}
+
+.patientInformation {
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+}
+
+.patientInformationDetails {
+  display: flex;
+  text-align: left;
+}
+
+.patientInformationName {
+  margin-right: 1rem;
+}
+.patientInformationName div {
+  margin-bottom: 1.1rem;
+}
+
+.patientInformationDataDetails {
+  text-align: left;
+  color: #5e6a70;
+}
+.patientInformationDataDetails input:disabled {
+  border: none;
+}
+.patientInformationDataDetails input {
+  border: none;
+
+  border-bottom: 1px solid black;
+}
+.patientInformationDataDetails div {
+  margin-bottom: 1rem;
+}
+
+.prescriptionContainer {
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+}
+
+.prescriptionHeading {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.prescriptionAdd {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  border: 1px dashed lightgreen;
+  color: #45bd8e;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.prescriptionTableHead {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: #5e6a70;
+  margin-bottom: 2rem;
+}
+
+.prescriptionTableData {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.prescriptionTableData {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.prescriptionName {
+  display: flex;
+  gap: 1rem;
+}
+.prescriptionName svg {
+  width: 20px;
+  height: 20px;
+  color: rgb(181, 181, 40);
+}
+
+.prescriptionDate {
+  color: #5e6a70;
+}
+
+.prescriptionDuration {
+  color: #5e6a70;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+  }
+}
